@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { VersionnComponent } from './version';
+import { AutoSizeComponent } from './autosize/autosize';
 
 @NgModule({
     declarations: [
-        VersionnComponent
+        AutoSizeComponent
     ],
     imports: [ CommonModule ],
-    exports: [],
+    exports: [
+        AutoSizeComponent
+    ],
     providers: [],
 })
-export class AppModule {}
+export class AutoSizeModule {}
