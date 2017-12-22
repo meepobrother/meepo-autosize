@@ -1,0 +1,22 @@
+.weui-textarea {
+    font-size: .9em;
+    padding: 5px 10px 0px 10px;
+    position: relative;
+}
+
+:host {
+    display: block;
+    position: relative;
+    &:after {
+        content: " ";
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        bottom: 0px;
+        height: 1px;
+        color: #ccc;
+        background-color: #ccc;
+        z-index: 2;
+        transform: scaleY(0.5)
+    }
+}
