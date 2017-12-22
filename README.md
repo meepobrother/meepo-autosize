@@ -15,9 +15,11 @@ export class AppModule { }
 ```
 
 ```html
-
+<autosize [(model)]="title"></autosize>
 ```
 
 ```ts
-
+export class AppComponent implements OnInit {
+  title = 'app';
+}
 ```
