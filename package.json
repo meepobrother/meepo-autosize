@@ -1,6 +1,6 @@
 {
     "name": "meepo-autosize",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "auto size to angular",
     "main": "./bundles/meepo.umd.js",
     "module": "./esm5/meepo.js",
