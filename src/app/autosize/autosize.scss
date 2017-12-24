@@ -1,3 +1,4 @@
+
 .weui-textarea {
     font-size: .9em;
     padding: 5px 10px 0px 10px;
@@ -7,6 +8,8 @@
 :host {
     display: block;
     position: relative;
+    overflow: hidden;
+    max-width: 100%;
     &:after {
         content: " ";
         position: absolute;

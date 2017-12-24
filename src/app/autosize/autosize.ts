@@ -23,6 +23,11 @@ export class AutoSizeComponent implements OnInit {
     }
     @Output() modelChange: EventEmitter<any> = new EventEmitter();
     @ViewChild('textarea') textarea: ElementRef;
+
+    @Input() widget: any = {
+        title: '留言',
+        tip: '请输入留言内容'
+    };
     constructor() { }
 
     ngOnInit() {
