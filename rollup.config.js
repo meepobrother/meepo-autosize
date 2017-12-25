@@ -263,7 +263,7 @@ switch (target) {
 
 export default {
     exports: 'named',
-    name: 'ngZorro.antd',
+    name: 'meepo-autosize',
     plugins,
     external: Object.keys(globals),
     globals,
