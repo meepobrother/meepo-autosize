@@ -15,7 +15,7 @@ export class AppModule { }
 ```
 
 ```html
-<autosize [(model)]="title"></autosize>
+<textarea autoSize="80" class="weui-textarea"></textarea>
 ```
 
 ```ts

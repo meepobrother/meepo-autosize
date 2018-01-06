@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AutoSizeComponent } from './autosize/autosize';
+import { AutoSizeDirective } from './autosize/autosize.directive';
 
 @NgModule({
     declarations: [
-        AutoSizeComponent
+        AutoSizeDirective
     ],
     imports: [ CommonModule ],
     exports: [
-        AutoSizeComponent
+        AutoSizeDirective
     ],
     providers: [],
 })
